@@ -159,4 +159,30 @@ describe('Get User Scenario', () => {
 18. finish :)
 19. perubahan dari branch modify-readme
 
+NB : Tambahan depedencies **eslint** , eslint ini gunanya untuk buat nginfoin ke pada developer kalo struktur/pattern codigan yang lu buat itu udah bener ato belum, jadi kalo masih berantakan, eslint akan ngasih tau dan ngasih solusi untuk membenarkan struktur/pattern coding lu. 
+config eslint :
+1. install eslint 
+`npm install eslint --save-dev`
+
+2. config eslint 
+`./node_modules/.bin/eslint --init`
+kemudian akan muncul pilihan seperti dibawah ini : \
+`? How would you like to use ESLint? To check syntax, find problems, and enforce code style`\
+`? What type of modules does your project use? JavaScript modules (import/export)`\
+`? Which framework does your project use? None of these`\
+`? Does your project use TypeScript? No`\
+`? Where does your code run? Browser`\
+`? How would you like to define a style for your project? Use a popular style guide`\
+`? Which style guide do you want to follow? Airbnb: https://github.com/airbnb/javascript`\
+`? What format do you want your config file to be in? JavaScript`\
+`Checking peerDependencies of eslint-config-airbnb-base@latest`\
+`The config that you've selected requires the following dependencies:`\
+
+`eslint-config-airbnb-base@latest eslint@^5.16.0 || ^6.1.0 eslint-plugin-import@^2.18.2`\
+`? Would you like to install them now with npm? Yes`\
+
+3. finish, tinggal buktikan dengan strucktur code yang salah, misal kurang titik koma (;), etc
+
 cekidot : https://setyokun.github.io/post/api-test-with-jest/
+
+
